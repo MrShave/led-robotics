@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    color: white;
+}
+
+.header {
+
+    background: rgb(212, 212, 212);
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar .navbar-brand strong {
+    animation: colorRotate 6s linear 0s infinite;
+}
+
+.rgb-strip {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(124deg, #6666ff,
+            #0099ff,
+            #00ff00,
+            #ff3399,
+            red,
+            #6666ff);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 10.5s ease infinite;
+    -z-animation: rainbow 10.5s ease infinite;
+    -o-animation: rainbow 10.5s ease infinite;
+    animation: rainbow 10.5s ease infinite;
+}
+
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+.nav-item {
+    transition-duration: 200ms;
+}
+
+.nav-item:hover {
+    transition-duration: 200ms;
+
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    font-weight: bolder;
+
+    -webkit-animation: rainbow 10s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+   div.center-if-mobile {
+       text-align: center;
+   }
+}
+
+.button {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    background-color: #49c5b6;
+    display: inline-block;
+    margin: 0;
+    margin-top: 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #49c5b6;
+    transition-duration: 200ms;
+
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    line-height: 37px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #49c5b6;
+
+    color: #49c5b6;
+}
+
+footer {
+    background: black;
+    color: #aaa;
+    padding-top: 10px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer a {
+    color: #aaa;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer h3 {
+    animation: colorRotate 6s ease infinite;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+
+    10% {
+        color: #0099ff;
+    }
+
+    25% {
+        color: #00ff00;
+    }
+
+    50% {
+        color: #ff3399;
+    }
+
+    75% {
+        color: red;
+    }
+
+    100% {
+        color: #6666ff;
+    }
+}
+
+footer .three-column {
+    overflow: hidden;
+}
+
+footer .three-column li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+footer .socila-list {
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+    opacity: 1;
+}
+
+footer .img-thumbnail {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+footer .copyright {
+    padding: 15px 0;
+    background: black;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+footer .copyright span {
+    animation: colorRotate 6s linear 0s infinite;
+}
